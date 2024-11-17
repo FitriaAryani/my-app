@@ -1,0 +1,97 @@
+/* Gaya umum untuk latar belakang halaman */
+body {
+  background-color: #543310;
+}
+
+/* Kontainer utama */
+/* .container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 200px auto 0;
+  padding-bottom: 30px;
+} */
+
+/* Bagian header */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  margin-top: 30px;
+}
+
+.text {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Bagian input */
+.inputs {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Memberi jarak antar elemen input */
+}
+
+.input {
+  display: flex;
+  align-items: center; /* Memposisikan gambar dan input di tengah vertikal */
+  margin: auto; /* Memastikan elemen input berada di tengah horizontal */
+  width: 480px;
+  height: 80px;
+  background-color: white; /* Warna latar belakang untuk input */
+  border-radius: 10px; /* Membuat sudut elemen membulat */
+}
+
+.input img {
+  margin: 0 30px; /* Memberi jarak horizontal antara gambar dan input */
+  height: 30px;
+  width: 30px;
+}
+
+.input input {
+  width: 400px; /* Lebar area input */
+  height: 50px; /* Tinggi area input */
+  background-color: transparent; /* Latar belakang transparan agar sesuai dengan parent */
+  border: none; /* Menghilangkan border */
+  outline: none; /* Menghapus outline saat input aktif */
+  color: #797979; /* Warna teks dalam input */
+  font-size: 19px; /* Ukuran font */
+}
+
+/* Bagian lupa password */
+.forgot-password {
+  text-align: center; /* Meratakan teks di tengah secara horizontal */
+  margin: 30px auto; /* Memastikan elemen berada di tengah */
+  color: #797979;
+  font-size: 18px;
+}
+
+.forgot-password span {
+  color: rgb(52, 52, 231);
+  cursor: pointer;
+}
+
+/* Tombol submit */
+.submit-container {
+  display: flex;
+  justify-content: center; /* Meratakan tombol secara horizontal */
+  gap: 30px;
+  margin: 60px auto;
+}
+
+.submit {
+  background-color: rgb(76, 76, 143);
+  color: white;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 220px;
+  height: 59px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
